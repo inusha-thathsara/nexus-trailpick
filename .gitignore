@@ -1,0 +1,46 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE / Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Proposal documents & generator scripts (EXCLUDED per instructions)
+*.docx
+*.pdf
+*.html
+build_proposal_docx.py
+build_proposal.py
+make_figures.py
+export_word_preview.py
+verify_docx.py
+prototype/build_proposal_docx.py
+prototype/build_proposal.py
+prototype/make_figures.py
+
+# Visual figures, scratch files, and logs
+figures/
+figures_bw/
+scratch/
+ideas/
+run_log.txt
+prototype/run_log.txt
+*.log
+
+# Competition administrative files
+NEXUS-2026-Ideathon-Round-1-Problem-Statement.pdf
+awareness_session.md
+recipes.json
+~$*.docx
